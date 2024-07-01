@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './ConversorDePeso.css';
 class ConversorDePeso extends React.Component{
     state = {
-        kg:"",
-        lb:"",
-        oz:""
+        kg:0,
+        lb:0,
+        oz:0
     }
 
     changeKg = (event)=>{
@@ -24,21 +24,24 @@ class ConversorDePeso extends React.Component{
         this.setState({lb:event.target.value / 16})
     }
 
+
 render(){
     
  return(
-    <div>
+    <div className="container">
         <h1>Conversor de Peso</h1>
-                
-                <label>Kilogramas (kg): </label>
-                <input   value={this.state.kg} onChange={this.changeKg}/>
-                <br></br>
-                <label> Libras (lb): </label>
-                <input  value ={this.state.lb} onChange={this.changelb}/>
-                <br></br>
-                <label> Onças(oz): </label>
-                <input  value ={this.state.oz} onChange={this.changeoz}/>
-
+                <div class="mb-3">
+                    <label class="form-label">Kilogramas (kg):</label>
+                    <input type="number" class="form-control" value ={this.state.kg} onChange={this.changekg}/>
+                    <br></br>
+                    <label class="form-label">Libras (lb):</label>
+                    <input type="number" class="form-control" value ={this.state.lb} onChange={this.changelb}/>
+                    <br></br>
+                    <label class="form-label"> Onças (oz): </label>
+                    <input type="number" class="form-control" value ={this.state.oz} onChange={this.changeoz}/>
+                </div>
+                   
+             
     </div>
 
  )
