@@ -26,11 +26,31 @@
   color: white;
 }
 
-/* @keyframes App-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-} */
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .App-logo {
+    margin-bottom:70px;
+    width: 100px;
+  }
+}
+@media (max-width: 768px){
+  .App-logo {
+    margin-bottom:30px;
+    width: 100px;
+  }
+   
+}
+ @media (max-width: 1024px){
+  .App-logo {
+    margin-bottom:30px;
+    width: 100px;
+  }
+}

@@ -60,7 +60,7 @@ class ConversorDePeso extends React.Component {
                     <br />
                     <input type="number" className="form-control-sm" value={this.state.oz} onChange={this.changeOz} min="0" />
                     <br /><br />
-                    <button onClick = {this.deleteInputFields} className="btn btn-light">Redefinir</button>
+                    <button onClick = {this.deleteInputFields} className="btn btn-dark">Redefinir</button>
                 </div>
             </div>
         );
