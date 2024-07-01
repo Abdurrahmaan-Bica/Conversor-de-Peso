@@ -1,51 +1,70 @@
 import React from 'react';
 import './ConversorDePeso.css';
-class ConversorDePeso extends React.Component{
+
+class ConversorDePeso extends React.Component {
     state = {
-        kg:0,
-        lb:0,
-        oz:0
+        kg: 0,
+        lb: 0,
+        oz: 0
     }
 
-    changeKg = (event)=>{
-        this.setState({kg:event.target.value})
-        this.setState({lb:event.target.value * 2.2046})
-        this.setState({oz:event.target.value * 35.274})
-
-    }
-    changeLb = (event)=>{
-        this.setState({lb:event.target.value}) 
-        this.setState({kg:event.target.value / 2.2046})
-        this.setState({oz:event.target.value * 16})
-    }
-    changeOz = (event)=>{
-        this.setState({oz:event.target.value}) 
-        this.setState({kg:event.target.value / 35.274})
-        this.setState({lb:event.target.value / 16})
+    changeKg = (event) => {
+        const kg = event.target.value;
+        this.setState({
+            kg: kg,
+            lb: kg * 2.2046,
+            oz: kg * 35.274
+        });
     }
 
+    changeLb = (event) => {
+        const lb = event.target.value;
+        this.setState({
+            lb: lb,
+            kg: lb / 2.2046,
+            oz: lb * 16
+        });
+    }
 
-render(){
-    
- return(
-    <div className="container">
-        <h1>Conversor de Peso</h1>
-                <div class="mb-3">
-                    <label class="form-label">Kilogramas (kg):</label>
-                    <input type="number" class="form-control" value ={this.state.kg} onChange={this.changekg}/>
-                    <br></br>
-                    <label class="form-label">Libras (lb):</label>
-                    <input type="number" class="form-control" value ={this.state.lb} onChange={this.changelb}/>
-                    <br></br>
-                    <label class="form-label"> Onças (oz): </label>
-                    <input type="number" class="form-control" value ={this.state.oz} onChange={this.changeoz}/>
+    changeOz = (event) => {
+        const oz = event.target.value;
+        this.setState({
+            oz: oz,
+            kg: oz / 35.274,
+            lb: oz / 16
+        });
+    }
+
+    deleteInputFields = () =>{
+        this.setState({
+            kg:0,
+            lb:0,
+            oz:0,
+        });
+    }
+
+    render() {
+        return (
+            <div className="container">
+                <h1>Conversor de Peso</h1>
+                <div className="mb-3">
+                    <label className="form-label">Kilogramas (kg):</label>
+                    <br />
+                    <input type="number" className="form-control-sm" value={this.state.kg} onChange={this.changeKg} min="0" />
+                    <br />
+                    <label className="form-label">Libras (lb):</label>
+                    <br />
+                    <input type="number" className="form-control-sm" value={this.state.lb} onChange={this.changeLb} min="0" />
+                    <br />
+                    <label className="form-label">Onças (oz):</label>
+                    <br />
+                    <input type="number" className="form-control-sm" value={this.state.oz} onChange={this.changeOz} min="0" />
+                    <br /><br />
+                    <button onClick = {this.deleteInputFields} className="btn btn-light">Redefinir</button>
                 </div>
-                   
-             
-    </div>
-
- )
+            </div>
+        );
+    }
 }
 
-}
 export default ConversorDePeso;
