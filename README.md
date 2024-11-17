@@ -5,23 +5,23 @@ The converter is designed to be intuitive and easy to use, with automatic update
 
 ## How does it work?
 
-O Conversor de Peso permite que você insira um valor em um dos campos de entrada (kg, lb ou oz) e ele automaticamente converte o valor para as outras duas unidades. O conversor é projetado para ser intuitivo e fácil de usar, com atualizações automáticas conforme você digita.
+The Weight Converter allows you to enter a value in one of the input fields (kg, lb or oz) and it automatically converts the value to the other two units.
 
-### Funcionalidades
+### Features
 
-- **Conversão de Quilogramas para Libras e Onças:**
-  - Insira um valor em quilogramas (kg) e veja a conversão instantânea para libras (lb) e onças (oz).
+- **Conversion of Kilograms to Pounds and Ounces:**
+  - Enter a value in kilograms (kg) and see the instant conversion to pounds (lb) and ounces (oz).
   
-- **Conversão de Libras para Quilogramas e Onças:**
-  - Insira um valor em libras (lb) e veja a conversão instantânea para quilogramas (kg) e onças (oz).
+-**Conversion of Pounds to Kilograms and Ounces:**
+  - Enter a value in pounds (lb) and see the instant conversion to kilograms (kg) and ounces (oz).
   
-- **Conversão de Onças para Quilogramas e Libras:**
-  - Insira um valor em onças (oz) e veja a conversão instantânea para quilogramas (kg) e libras (lb).
+- **Conversion from Ounces to Kilograms and Pounds:**
+  - Enter a value in ounces (oz) and see the instant conversion to kilograms (kg) and pounds (lb).
   
-- **Botão de Redefinir:**
-  - Redefine todos os campos de entrada para zero, permitindo uma nova conversão.
+- **Redefinir button:**
+  - Resets all input fields to zero, allowing a new conversion.
 
-### Como Usar
+### How to use it?
 
 1. **Inserir Valores:**
    - Digite um valor no campo de entrada correspondente à unidade de peso que deseja converter. Por exemplo, se você deseja converter de quilogramas para libras e onças, digite o valor em quilogramas.
