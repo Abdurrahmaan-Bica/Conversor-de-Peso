@@ -23,14 +23,14 @@ The Weight Converter allows you to enter a value in one of the input fields (kg,
 
 ### How to use it?
 
-1. **Inserir Valores:**
-   - Digite um valor no campo de entrada correspondente à unidade de peso que deseja converter. Por exemplo, se você deseja converter de quilogramas para libras e onças, digite o valor em quilogramas.
+1. **Insert values:**
+   - Enter a value in the input field corresponding to the unit of weight you want to convert. For example, if you want to convert from kilograms to pounds and ounces, enter the value in kilograms.
 
-2. **Visualizar Resultados:**
-   - Os valores convertidos aparecerão automaticamente nos campos de entrada das outras duas unidades de peso.
+2. **View Results:**
+   - The converted values will automatically appear in the input fields of the two other weight units.
 
-3. **Redefinir Campos:**
-   - Clique no botão "Redefinir" para limpar todos os campos de entrada e iniciar uma nova conversão.
+3. **Reset Fields:**
+   - Click the "Reset" button to clear all input fields and start a new conversion, if needed.
 
 
 ## Contribuição
