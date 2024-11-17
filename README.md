@@ -1,8 +1,9 @@
-# Conversor de Peso
+# Conversor de Peso (Weight Converter)
 
-Este é um simples conversor de peso que permite converter entre quilogramas (kg), libras (lb) e onças (oz).
+This is a simple weight converter that allows you to convert between kilograms (kg), pounds (lb) and ounces (oz).
+The converter is designed to be intuitive and easy to use, with automatic updates as you type.
 
-## Como Funciona
+## How does it work?
 
 O Conversor de Peso permite que você insira um valor em um dos campos de entrada (kg, lb ou oz) e ele automaticamente converte o valor para as outras duas unidades. O conversor é projetado para ser intuitivo e fácil de usar, com atualizações automáticas conforme você digita.
 
