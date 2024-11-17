@@ -33,10 +33,8 @@ The Weight Converter allows you to enter a value in one of the input fields (kg,
    - Click the "Reset" button to clear all input fields and start a new conversion, if needed.
 
 
-## Contribuição
+## Contribution
 
-Se você quiser contribuir para este projeto, sinta-se à vontade para abrir um pull request.
+If you want to contribute to this project, feel free to open a pull request.
 
-## Agradecimentos
 
-Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
