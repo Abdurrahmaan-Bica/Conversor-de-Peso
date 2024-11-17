@@ -12,7 +12,7 @@ The Weight Converter allows you to enter a value in one of the input fields (kg,
 - **Conversion of Kilograms to Pounds and Ounces:**
   - Enter a value in kilograms (kg) and see the instant conversion to pounds (lb) and ounces (oz).
   
--**Conversion of Pounds to Kilograms and Ounces:**
+- **Conversion of Pounds to Kilograms and Ounces:**
   - Enter a value in pounds (lb) and see the instant conversion to kilograms (kg) and ounces (oz).
   
 - **Conversion from Ounces to Kilograms and Pounds:**
